@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note Page</title>
+    <style>
+        body {
+            background-color: #ffb3c1;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+            flex-direction: column;
+            position: relative; /* Allow positioning of the back button */
+        }
+        .message {
+            background-color: #ff66b2;
+            color: white;
+            padding: 30px 50px;
+            border-radius: 10px;
+            font-size: 36px; /* Larger font size */
+            font-weight: bold;
+            max-width: 80%;
+            margin-bottom: 20px;
+        }
+        .back-button {
+            background-color: #ff66b2;
+            color: white;
+            border: none;
+            padding: 10px 20px; /* Smaller size */
+            font-size: 16px; /* Smaller font size */
+            border-radius: 10px;
+            cursor: pointer;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s;
+            position: absolute; /* Positioning for the top-left corner */
+            top: 20px;
+            left: 20px;
+        }
+        .back-button:hover {
+            background-color: #ff3385;
+        }
+    </style>
+</head>
+<body>
+    <button class="back-button" onclick="window.location.href='index.html'">Back</button>
+    <div class="message">
+        No matter what happenes im always going to be there for you, please dont ever be embarressed to be sad in front of me 
+        
+    </div>
+</body>
+</html>
